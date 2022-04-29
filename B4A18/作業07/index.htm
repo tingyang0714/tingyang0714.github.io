@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+		<title>作業06</title>
+	<style>
+		table {
+					width:90%;
+					border-color: brown;
+					border-style: solid;
+					border-collapse: collapse;
+		}
+	</style>
+</head>
+	<body>
+	<script>
+		document.write ("<div>九九乘法表</div>");
+		<table>
+		function nTimesNtable (n) {
+			for ( i = 1; i<10; i++){
+				for( j=1 ; j<10 ; j++){
+					document.write( i + "x" + j + "="+ i*j + "   "  );
+				}
+				document.write("<br>");
+			}
+		}
+		nTimesNtable(9)
+	</script>
+	</body>
+</html>
