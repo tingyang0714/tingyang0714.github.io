@@ -2,29 +2,37 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-		<title>作業06</title>
+		<title>作業07</title>
 	<style>
-		table {
-					width:90%;
-					border-color: brown;
-					border-style: solid;
-					border-collapse: collapse;
+		h4{
+			color: red;
+		}
+		table{
+				width: 70%;
+				border-color: 	#46A3FF;
+				border-style: solid;
+				border-collapse: collapse;
+				}
+		td {
+			text-align: middle;
+			border-color: 	#46A3FF;
+			border-style: solid;
 		}
 	</style>
 </head>
 	<body>
+	<h4>九九乘法表</h4>
 	<script>
-		document.write ("<div>九九乘法表</div>");
-		<table>
+		document.write("<table >");
 		function nTimesNtable (n) {
-			for ( i = 1; i<10; i++){
-				for( j=1 ; j<10 ; j++){
-					document.write( i + "x" + j + "="+ i*j + "   "  );
+				for ( i=1; i<=n; i++){
+					document.write("<tr>");
+					for ( j=1; j<=n; j++){
+						document.write("<td>"+ j + "x" + i + "=" +  j * i + "</td>");
 				}
-				document.write("<br>");
 			}
 		}
-		nTimesNtable(9)
+		nTimesNtable(9);
 	</script>
 	</body>
 </html>
