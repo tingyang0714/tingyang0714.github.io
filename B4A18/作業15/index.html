@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>作業15</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+    <link type="text/css" rel="stylesheet" href="css/skitter.styles.css"/>
+    <style>
+        .box_skitter_large {
+            width: 1000px;
+            height: 680px;
+        }
+
+        body {
+            background-color: #E6E6FA;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery-1.5.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.skitter.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.animate-colors-min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //$('.box_skitter_large').skitter();
+            $('.box_skitter_large').skitter({hideTools: true});
+            //$('.box_skitter_large').skitter({thumbs: true, label: true});
+            //$('.box_skitter_large').skitter({navigation: true, dots: false});
+        });
+    </script>
+
+</head>
+<body>
+<div class="border_box">
+    <div class="box_skitter box_skitter_large">
+        <ul>
+            <li>
+                <img src="images/worldwide01.jpg" class="fadeFour">
+                <div class="label_text">
+                    <p>以下為全球十大美景，來看看有哪十大美景吧!!!</p>
+                </div>
+            </li>
+            <li>
+                <img src="images/Venice01.jpg" class="circlesInside">
+                <div class="label_text">
+                    <p>十大美景之第一名: 義大利- 威尼斯; 有著「水之都」、「面具之城」之稱。這個名字源於公元前十世紀居住在該地區的古威尼蒂人;歷史上曾經是威尼斯共和國的首府。</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/Prague.jpg" class="blindHeight">
+                <div class="label_text">
+                    <p>第二名: 捷克-布拉格;一座著名的旅遊城市，市內擁有為數眾多的各個歷史時期、各種風格的建築，從羅馬式、哥德式建築、文藝復興、巴洛克、洛可可、新古典主義、新藝術運動風格到立體派和超現代主義，其中特別以巴洛克風格和哥德式建築更占優勢。</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/Paris.jpg" class="circles">
+                <div class="label_text">
+                    <p>第三名: 法國-巴黎;散發著浪漫、時尚和歷史氣息，非常適合探索感受巴黎生活方式。</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/Edinburgh.jpg" class="paralell">
+                <div class="label_text">
+                    <p>第四名: 英國-愛丁堡;有著悠久的歷史，許多歷史建築完好保存下來; 此外愛丁堡的舊城和新城一起被聯合國教科文組織列為世界遺產。</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/Budapest.jpg" class="cubeSpread">
+                <div class="label_text">
+                    <p>第五名: 匈牙利-布達佩斯;有「東歐巴黎」和「多瑙河明珠」的美譽。整個這個城堡區以及多瑙河畔的景色從1987年開始被聯合國教科文組織列入世界遺產。</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/amsterdam.jpg" class="swapBars">
+                <div class="label_text">
+                    <p>第六名:荷蘭-阿姆斯特丹;是荷蘭的金融和文化首都，有很多漂亮且極具吸引力的旅遊景點，包括歷史悠久的運河網、荷蘭國家博物館、梵谷博物館等等的景點可前往遊玩!</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/florence.jpg" class="fade">
+                <div class="label_text">
+                    <p>第七名: 義大利-佛羅倫斯;是義大利中部塔斯卡尼大區和佛羅倫斯省的首府。被認為是文藝復興運動的誕生地，藝術與建築的搖籃之一，擁有眾多的歷史建築，和藏品豐富的博物館。</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/rome.jpg" class="circlesInside">
+                <div class="label_text">
+                    <p>第八名: 義大利-羅馬;是世界著名的歷史文化名城，地中海文明的重要源頭和古羅馬文明的發祥地，建城歷史悠久，可考的城市歷史長達2800多年，是歐洲最古老且連續的城市文明。</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/luzern.jpg" class="glassBlock">
+                <div class="label_text">
+                    <p>第九名: 瑞士-琉森;是瑞士中部琉森州的首府，位於琉森湖畔其美麗的自然風光和獨特的人文情懷成為重要的旅遊城市~</p>
+                </div>
+            </li>
+
+            <li>
+                <img src="images/Kyoto.jpg" class="cubeSize">
+                <div class="label_text">
+                    <p>第十名:日本-京都;京都以精緻文化、美食料理和迷人的鄉村風光聞名於世，每年有數以百萬計的國內外遊客紛紛慕名前來京都市，體驗日本的傳統文化。歷經千年的發展，京都與東京並列為現今日本最具代表性的文化櫥窗。</p>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</div>
+</body>
+</html>
